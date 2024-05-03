@@ -1,0 +1,27 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers:
+      prettier: ^3.2.5
+    devDependencies:
+      prettier: 3.2.5
+
+  packages/appscripts:
+    specifiers:
+      '@types/google-apps-script': ^1.0.83
+    dependencies:
+      '@types/google-apps-script': 1.0.83
+
+packages:
+
+  /@types/google-apps-script/1.0.83:
+    resolution: {integrity: sha512-o+QNeNZxPAfYHzRiLHjub9qF0IILg21r9MzYlnrIHUT+/wcC70aqDfedmzKTgtzsj79zvoTZD0cjGgy46+1Ynw==}
+    dev: false
+
+  /prettier/3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true

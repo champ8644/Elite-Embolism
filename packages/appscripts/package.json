@@ -1,0 +1,17 @@
+{
+  "name": "neuro-resident",
+  "version": "1.0.0",
+  "description": "Project for neuro resident",
+  "main": "index.js",
+  "scripts": {
+    "pull": "clasp -P src/ pull",
+    "push": "clasp -P src/ push --watch",
+    "sync": "npm pull & npm push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.83"
+  }
+}
