@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "page:install": "cd apps/elite-embolism && npm i",
+    "page:build": "cd apps/elite-embolism && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
